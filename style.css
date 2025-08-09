@@ -1,32 +1,32 @@
-/* ===== Reset ===== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== Base Styles ===== */
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #0c0c0c;
   color: #fff;
 }
 
-/* ===== Navbar ===== */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 5rem; /* 20px 80px */
+  padding: 1.25rem 5rem; 
   background-color: #21243d;
 }
 
 .logo {
   font-weight: 700;
-  font-size: 1.375rem; /* 22px */
+  font-size: 1.375rem; 
   display: flex;
   align-items: center;
-  gap: 0.625rem; /* 10px */
+  gap: 0.625rem;
 }
 
 .nav-center {
@@ -38,7 +38,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.875rem; /* 30px */
+  gap: 1.875rem;
 }
 
 .nav-links a {
@@ -53,17 +53,17 @@ body {
 }
 
 .nav-icon i {
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem; 
   color: #fff;
   cursor: pointer;
 }
 
-/* ===== Hero Section ===== */
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 5rem; /* 80px */
+  padding: 5rem;
   background-image: url("images/sushi-bg.PNG");
   background-size: cover;
   background-position: center;
@@ -72,92 +72,92 @@ body {
 }
 
 .hero-text {
-  max-width: 37.5rem; /* 600px */
+  max-width: 37.5rem; 
   text-align: left;
 }
 
 .hero-text h1 {
-  font-size: 3rem; /* 48px */
-  margin-bottom: 1.25rem; /* 20px */
+  font-size: 3rem;
+  margin-bottom: 1.25rem; 
   font-weight: 700;
 }
 
 .hero-text p {
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
   line-height: 1.6;
-  margin-bottom: 1.875rem; /* 30px */
+  margin-bottom: 1.875rem; 
   font-weight: 400;
 }
 
 .btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem; /* 12px 24px */
+  padding: 0.75rem 1.5rem; 
   background-color: #21243d;
   color: #fff;
   text-decoration: none;
-  border-radius: 1.875rem; /* 30px */
+  border-radius: 1.875rem;
   font-weight: 600;
 }
 
-/* ===== Popular Menu Section ===== */
+
 .popular-menu {
   background-color: #21243d;
-  padding: 5rem 3.75rem; /* 80px 60px */
+  padding: 5rem 3.75rem; 
   text-align: center;
   color: #fff;
 }
 
 .section-header h2 {
-  font-size: 2.25rem; /* 36px */
+  font-size: 2.25rem; 
   font-weight: 700;
-  margin-bottom: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem; 
 }
 
 .section-header p {
-  font-size: 1rem; /* 16px */
-  max-width: 37.5rem; /* 600px */
-  margin: 0 auto 3.125rem; /* 50px */
+  font-size: 1rem;
+  max-width: 37.5rem; 
+  margin: 0 auto 3.125rem; 
   line-height: 1.6;
 }
 
 .menu-items {
   display: flex;
   justify-content: center;
-  gap: 2.5rem; /* 40px */
+  gap: 2.5rem; 
   flex-wrap: wrap;
 }
 
 .menu-card {
-  max-width: 15.625rem; /* 250px */
+  max-width: 15.625rem; 
 }
 
 .menu-card img {
-  width: 11.25rem; /* 180px */
-  height: 11.25rem; /* 180px */
+  width: 11.25rem; 
+  height: 11.25rem; 
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem; 
 }
 
 .menu-card h3 {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 0.625rem; /* 10px */
+  margin-bottom: 0.625rem; 
 }
 
 .menu-card p {
-  font-size: 0.875rem; /* 14px */
+  font-size: 0.875rem; 
   line-height: 1.5;
 }
 
-/* ===== Featured Section ===== */
+
 .featured-section {
   display: flex;
   align-items: center;
-  justify-content: center; /* center ka feel dene ke liye */
-  gap: 3rem; /* image aur text ke beech ka space */
+  justify-content: center; 
+  gap: 3rem;
   padding: 4rem 6rem;
-  background-color: #f8c56b; /* yellowish background */
+  background-color: #f8c56b; 
 }
 
 .featured-image img {
@@ -171,7 +171,7 @@ body {
 .featured-text {
   max-width: 400px;
   text-align: left;
-  margin-left: 2rem; /* thoda right ka shift kam */
+  margin-left: 2rem; 
 }
 
 .featured-text h2 {
